@@ -42,7 +42,7 @@ function addEventListenerToSubmitButton() {
       value = 'you have diabetes!'
     }
     if (userInput !== null && prediction !== undefined) {
-        userInput.innerText = `the computer thinks is: ${value}`;
+        userInput.innerText = `the computer thinks that ${value}`;
       }
       
     let visual = new VegaTree("#view", 900, 500, decisionTree.toJSON());
